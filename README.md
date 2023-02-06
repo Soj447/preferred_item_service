@@ -1,4 +1,9 @@
 # PreferredItemService
+1. [How to run](#how-to-run)
+2. [Solution description](#solution-description)
+3. [Solution diagram](#solution-diagram)
+4. [Rest API schema](#rest-api-schema)
+5. [Possible improvements](#possible-improvements)
 
 ---
 ## How to run
@@ -62,3 +67,4 @@ HTTP POST /
 
 ## Possible improvements
 - To reduce amount of time spent fetching information from other services which could use for example http transport caching mechanism could be integrated between services.
+- rate limiting and fail recovery can be implemented on api gateway
